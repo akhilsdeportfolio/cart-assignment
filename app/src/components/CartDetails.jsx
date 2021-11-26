@@ -5,8 +5,6 @@ import { cartContext } from "../contexts/CartContext"
 export default ()=>{
 
      let {cartDetails} = useContext(cartContext);
-
-
      console.log(cartDetails);
 
      return(<div style={{width:'100%',margin:'auto'}}>
